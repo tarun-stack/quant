@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 from quanttrader.util import read_ohlcv_csv
 from quanttrader.strategy import StrategyBase
-from quanttrader import BacktestGymEngine, BacktestEngine
+from quanttrader import  BacktestEngine
 
 
 class BuyAndHoldStrategy(StrategyBase):

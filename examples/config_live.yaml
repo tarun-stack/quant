@@ -1,4 +1,4 @@
-account: LU1832
+account: DU7850624
 client_id: 0
 host: 127.0.0.1
 port: 7497
@@ -14,18 +14,19 @@ strategy:
   #   symbols:
   #   - NGZ0 FUT NYMEX
   #---------- Strategy and params control -----------#
-  DualTimeFrameStrategy:
-    active: false
-    capital: 10000
-    params:
-      start_time: '09:30:00'
-      end_time: '16:14:58'
-      bar_start_time: '09:00:00'
-      bar_end_time: '16:15:00'
-      lookback_5sec: 50
-      lookback_15sec: 20
-    symbols:
-    - ESM1 FUT GLOBEX
+  #DualTimeFrameStrategy:
+  #  active: false
+  #  capital: 10000
+  #  params:
+  #    start_time: '09:30:00'
+  #    end_time: '16:14:58'
+  #    bar_start_time: '09:00:00'
+  #    bar_end_time: '16:15:00'
+  #    lookback_5sec: 50
+  #    lookback_15sec: 20
+  #  symbols:
+    #- ESM1 FUT GLOBEX
+    #- ESM9 FUT GLOBEX
   #---------- Strategy and params control -----------#
   # DualThrustStrategy:
   #   active: false
@@ -60,7 +61,7 @@ strategy:
       tick_trigger_threshold: 6000
     single_trade_limit: 3
     symbols:
-    - ESM1 FUT GLOBEX
+    - AAPL STK NASDAQ
     total_active_limit: 2
     total_cancel_limit: 5
     total_loss_limit: 5000
